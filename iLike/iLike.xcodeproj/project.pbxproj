@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3610D880795832F5B846A571 /* libPods-iLike.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A0E2F00BE2F286920C862A /* libPods-iLike.a */; };
+		B04C503D20C2429F0022AC32 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C503C20C2429F0022AC32 /* RegisterViewController.swift */; };
+		B04C503F20C242D50022AC32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C503E20C242D50022AC32 /* LoginViewController.swift */; };
+		B04C504220C246540022AC32 /* Twitters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C504120C246540022AC32 /* Twitters.swift */; };
+		B04C504420C247BA0022AC32 /* TwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C504320C247BA0022AC32 /* TwitterUser.swift */; };
+		B04C504620C247F90022AC32 /* TWTRAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C504520C247F90022AC32 /* TWTRAPIClient.swift */; };
+		B04C504820C2483A0022AC32 /* EntityTwitterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C504720C2483A0022AC32 /* EntityTwitterUser.swift */; };
+		B04C504B20C259640022AC32 /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C504A20C259640022AC32 /* UIUtil.swift */; };
+		B04C504D20C26E820022AC32 /* PinCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C504C20C26E820022AC32 /* PinCodeViewController.swift */; };
+		B04C505020C2714C0022AC32 /* InputMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C504F20C2714C0022AC32 /* InputMailViewController.swift */; };
+		B0BF1CE720B4F9DA00351594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF1CE620B4F9DA00351594 /* AppDelegate.swift */; };
+		B0BF1CE920B4F9DA00351594 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF1CE820B4F9DA00351594 /* FirstViewController.swift */; };
+		B0BF1CEB20B4F9DA00351594 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF1CEA20B4F9DA00351594 /* SecondViewController.swift */; };
+		B0BF1CEE20B4F9DB00351594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BF1CEC20B4F9DB00351594 /* Main.storyboard */; };
+		B0BF1CF020B4F9DC00351594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BF1CEF20B4F9DC00351594 /* Assets.xcassets */; };
+		B0BF1CF320B4F9DC00351594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BF1CF120B4F9DC00351594 /* LaunchScreen.storyboard */; };
+		B0BF1CFE20B4F9DC00351594 /* iLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF1CFD20B4F9DC00351594 /* iLikeTests.swift */; };
+		B0BF1D0920B4F9DC00351594 /* iLikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF1D0820B4F9DC00351594 /* iLikeUITests.swift */; };
+		B0BF1D1720B4FC1D00351594 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF1D1620B4FC1D00351594 /* Constants.swift */; };
+		B0BF1D1920B5147900351594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BF1D1820B5147900351594 /* UIKit.framework */; };
+		B0BF1D1B20B5148500351594 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BF1D1A20B5148500351594 /* CoreLocation.framework */; };
+		B0BF1D1D20B5149000351594 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BF1D1C20B5149000351594 /* UserNotificationsUI.framework */; };
+		B0BF1D1F20B514A500351594 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BF1D1E20B514A400351594 /* UserNotifications.framework */; };
+		B0E1F2EE20B7CBA900BECE8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E1F2ED20B7CBA900BECE8B /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0BF1CFA20B4F9DC00351594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BF1CDB20B4F9DA00351594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BF1CE220B4F9DA00351594;
+			remoteInfo = iLike;
+		};
+		B0BF1D0520B4F9DC00351594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BF1CDB20B4F9DA00351594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BF1CE220B4F9DA00351594;
+			remoteInfo = iLike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A911E8D7385E724FCDA58F8 /* Pods-iLike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLike/Pods-iLike.debug.xcconfig"; sourceTree = "<group>"; };
+		AB669D1AC6BBB6895CE80492 /* Pods-iLike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLike.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLike/Pods-iLike.release.xcconfig"; sourceTree = "<group>"; };
+		B04C503C20C2429F0022AC32 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B04C503E20C242D50022AC32 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B04C504120C246540022AC32 /* Twitters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitters.swift; sourceTree = "<group>"; };
+		B04C504320C247BA0022AC32 /* TwitterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUser.swift; sourceTree = "<group>"; };
+		B04C504520C247F90022AC32 /* TWTRAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTRAPIClient.swift; sourceTree = "<group>"; };
+		B04C504720C2483A0022AC32 /* EntityTwitterUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTwitterUser.swift; sourceTree = "<group>"; };
+		B04C504A20C259640022AC32 /* UIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
+		B04C504C20C26E820022AC32 /* PinCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeViewController.swift; sourceTree = "<group>"; };
+		B04C504F20C2714C0022AC32 /* InputMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMailViewController.swift; sourceTree = "<group>"; };
+		B0BF1CE320B4F9DA00351594 /* iLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BF1CE620B4F9DA00351594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0BF1CE820B4F9DA00351594 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B0BF1CEA20B4F9DA00351594 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B0BF1CED20B4F9DB00351594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0BF1CEF20B4F9DC00351594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0BF1CF220B4F9DC00351594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0BF1CF420B4F9DC00351594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BF1CF920B4F9DC00351594 /* iLikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BF1CFD20B4F9DC00351594 /* iLikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLikeTests.swift; sourceTree = "<group>"; };
+		B0BF1CFF20B4F9DC00351594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BF1D0420B4F9DC00351594 /* iLikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BF1D0820B4F9DC00351594 /* iLikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLikeUITests.swift; sourceTree = "<group>"; };
+		B0BF1D0A20B4F9DC00351594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BF1D1620B4FC1D00351594 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B0BF1D1820B5147900351594 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0BF1D1A20B5148500351594 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0BF1D1C20B5149000351594 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		B0BF1D1E20B514A400351594 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		B0BF1D2020B578EF00351594 /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		B0E1F2E420B62D9D00BECE8B /* iLike.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iLike.entitlements; sourceTree = "<group>"; };
+		B0E1F2ED20B7CBA900BECE8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6A0E2F00BE2F286920C862A /* libPods-iLike.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iLike.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BF1CE020B4F9DA00351594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BF1D1F20B514A500351594 /* UserNotifications.framework in Frameworks */,
+				B0BF1D1D20B5149000351594 /* UserNotificationsUI.framework in Frameworks */,
+				B0BF1D1B20B5148500351594 /* CoreLocation.framework in Frameworks */,
+				B0BF1D1920B5147900351594 /* UIKit.framework in Frameworks */,
+				3610D880795832F5B846A571 /* libPods-iLike.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BF1CF620B4F9DC00351594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BF1D0120B4F9DC00351594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131B81CEA78A35AD25C42295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0BF1D1E20B514A400351594 /* UserNotifications.framework */,
+				B0BF1D1C20B5149000351594 /* UserNotificationsUI.framework */,
+				B0BF1D1A20B5148500351594 /* CoreLocation.framework */,
+				B0BF1D1820B5147900351594 /* UIKit.framework */,
+				C6A0E2F00BE2F286920C862A /* libPods-iLike.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E0D2153704C833EB8283325 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A911E8D7385E724FCDA58F8 /* Pods-iLike.debug.xcconfig */,
+				AB669D1AC6BBB6895CE80492 /* Pods-iLike.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B04C504020C246250022AC32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B04C504120C246540022AC32 /* Twitters.swift */,
+				B04C504320C247BA0022AC32 /* TwitterUser.swift */,
+				B04C504520C247F90022AC32 /* TWTRAPIClient.swift */,
+				B04C504720C2483A0022AC32 /* EntityTwitterUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B04C504920C2592E0022AC32 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B04C504A20C259640022AC32 /* UIUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B04C504E20C270D80022AC32 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B04C503C20C2429F0022AC32 /* RegisterViewController.swift */,
+				B04C504F20C2714C0022AC32 /* InputMailViewController.swift */,
+				B04C504C20C26E820022AC32 /* PinCodeViewController.swift */,
+				B04C503E20C242D50022AC32 /* LoginViewController.swift */,
+				B0BF1CE820B4F9DA00351594 /* FirstViewController.swift */,
+				B0BF1CEA20B4F9DA00351594 /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0BF1CDA20B4F9DA00351594 = {
+			isa = PBXGroup;
+			children = (
+				B0BF1CE520B4F9DA00351594 /* iLike */,
+				B0BF1CFC20B4F9DC00351594 /* iLikeTests */,
+				B0BF1D0720B4F9DC00351594 /* iLikeUITests */,
+				B0BF1CE420B4F9DA00351594 /* Products */,
+				9E0D2153704C833EB8283325 /* Pods */,
+				131B81CEA78A35AD25C42295 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BF1CE420B4F9DA00351594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0BF1CE320B4F9DA00351594 /* iLike.app */,
+				B0BF1CF920B4F9DC00351594 /* iLikeTests.xctest */,
+				B0BF1D0420B4F9DC00351594 /* iLikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0BF1CE520B4F9DA00351594 /* iLike */ = {
+			isa = PBXGroup;
+			children = (
+				B04C504E20C270D80022AC32 /* Controllers */,
+				B04C504920C2592E0022AC32 /* Utils */,
+				B04C504020C246250022AC32 /* Models */,
+				B0E1F2E420B62D9D00BECE8B /* iLike.entitlements */,
+				B0BF1CE620B4F9DA00351594 /* AppDelegate.swift */,
+				B0BF1CEC20B4F9DB00351594 /* Main.storyboard */,
+				B0BF1D1620B4FC1D00351594 /* Constants.swift */,
+				B0BF1CEF20B4F9DC00351594 /* Assets.xcassets */,
+				B0BF1CF120B4F9DC00351594 /* LaunchScreen.storyboard */,
+				B0BF1CF420B4F9DC00351594 /* Info.plist */,
+				B0E1F2ED20B7CBA900BECE8B /* GoogleService-Info.plist */,
+				B0BF1D2020B578EF00351594 /* Bridging_Header.h */,
+			);
+			path = iLike;
+			sourceTree = "<group>";
+		};
+		B0BF1CFC20B4F9DC00351594 /* iLikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BF1CFD20B4F9DC00351594 /* iLikeTests.swift */,
+				B0BF1CFF20B4F9DC00351594 /* Info.plist */,
+			);
+			path = iLikeTests;
+			sourceTree = "<group>";
+		};
+		B0BF1D0720B4F9DC00351594 /* iLikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BF1D0820B4F9DC00351594 /* iLikeUITests.swift */,
+				B0BF1D0A20B4F9DC00351594 /* Info.plist */,
+			);
+			path = iLikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0BF1CE220B4F9DA00351594 /* iLike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BF1D0D20B4F9DC00351594 /* Build configuration list for PBXNativeTarget "iLike" */;
+			buildPhases = (
+				47F5F64E5D27BD8AF57A7867 /* [CP] Check Pods Manifest.lock */,
+				B0BF1CDF20B4F9DA00351594 /* Sources */,
+				B0BF1CE020B4F9DA00351594 /* Frameworks */,
+				B0BF1CE120B4F9DA00351594 /* Resources */,
+				4EAFD3C9B8AB5D8D7F7955EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLike;
+			productName = iLike;
+			productReference = B0BF1CE320B4F9DA00351594 /* iLike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0BF1CF820B4F9DC00351594 /* iLikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BF1D1020B4F9DC00351594 /* Build configuration list for PBXNativeTarget "iLikeTests" */;
+			buildPhases = (
+				B0BF1CF520B4F9DC00351594 /* Sources */,
+				B0BF1CF620B4F9DC00351594 /* Frameworks */,
+				B0BF1CF720B4F9DC00351594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BF1CFB20B4F9DC00351594 /* PBXTargetDependency */,
+			);
+			name = iLikeTests;
+			productName = iLikeTests;
+			productReference = B0BF1CF920B4F9DC00351594 /* iLikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0BF1D0320B4F9DC00351594 /* iLikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BF1D1320B4F9DC00351594 /* Build configuration list for PBXNativeTarget "iLikeUITests" */;
+			buildPhases = (
+				B0BF1D0020B4F9DC00351594 /* Sources */,
+				B0BF1D0120B4F9DC00351594 /* Frameworks */,
+				B0BF1D0220B4F9DC00351594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BF1D0620B4F9DC00351594 /* PBXTargetDependency */,
+			);
+			name = iLikeUITests;
+			productName = iLikeUITests;
+			productReference = B0BF1D0420B4F9DC00351594 /* iLikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0BF1CDB20B4F9DA00351594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Roan.Hong;
+				TargetAttributes = {
+					B0BF1CE220B4F9DA00351594 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					B0BF1CF820B4F9DC00351594 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = B0BF1CE220B4F9DA00351594;
+					};
+					B0BF1D0320B4F9DC00351594 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = B0BF1CE220B4F9DA00351594;
+					};
+				};
+			};
+			buildConfigurationList = B0BF1CDE20B4F9DA00351594 /* Build configuration list for PBXProject "iLike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0BF1CDA20B4F9DA00351594;
+			productRefGroup = B0BF1CE420B4F9DA00351594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0BF1CE220B4F9DA00351594 /* iLike */,
+				B0BF1CF820B4F9DC00351594 /* iLikeTests */,
+				B0BF1D0320B4F9DC00351594 /* iLikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0BF1CE120B4F9DA00351594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BF1CF320B4F9DC00351594 /* LaunchScreen.storyboard in Resources */,
+				B0E1F2EE20B7CBA900BECE8B /* GoogleService-Info.plist in Resources */,
+				B0BF1CF020B4F9DC00351594 /* Assets.xcassets in Resources */,
+				B0BF1CEE20B4F9DB00351594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BF1CF720B4F9DC00351594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BF1D0220B4F9DC00351594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47F5F64E5D27BD8AF57A7867 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EAFD3C9B8AB5D8D7F7955EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iLike/Pods-iLike-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLike/Pods-iLike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0BF1CDF20B4F9DA00351594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04C503F20C242D50022AC32 /* LoginViewController.swift in Sources */,
+				B04C504220C246540022AC32 /* Twitters.swift in Sources */,
+				B0BF1CEB20B4F9DA00351594 /* SecondViewController.swift in Sources */,
+				B04C504D20C26E820022AC32 /* PinCodeViewController.swift in Sources */,
+				B04C503D20C2429F0022AC32 /* RegisterViewController.swift in Sources */,
+				B0BF1CE720B4F9DA00351594 /* AppDelegate.swift in Sources */,
+				B04C504620C247F90022AC32 /* TWTRAPIClient.swift in Sources */,
+				B0BF1CE920B4F9DA00351594 /* FirstViewController.swift in Sources */,
+				B04C504420C247BA0022AC32 /* TwitterUser.swift in Sources */,
+				B04C504B20C259640022AC32 /* UIUtil.swift in Sources */,
+				B0BF1D1720B4FC1D00351594 /* Constants.swift in Sources */,
+				B04C504820C2483A0022AC32 /* EntityTwitterUser.swift in Sources */,
+				B04C505020C2714C0022AC32 /* InputMailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BF1CF520B4F9DC00351594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BF1CFE20B4F9DC00351594 /* iLikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BF1D0020B4F9DC00351594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BF1D0920B4F9DC00351594 /* iLikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0BF1CFB20B4F9DC00351594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BF1CE220B4F9DA00351594 /* iLike */;
+			targetProxy = B0BF1CFA20B4F9DC00351594 /* PBXContainerItemProxy */;
+		};
+		B0BF1D0620B4F9DC00351594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BF1CE220B4F9DA00351594 /* iLike */;
+			targetProxy = B0BF1D0520B4F9DC00351594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0BF1CEC20B4F9DB00351594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BF1CED20B4F9DB00351594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0BF1CF120B4F9DC00351594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BF1CF220B4F9DC00351594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0BF1D0B20B4F9DC00351594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0BF1D0C20B4F9DC00351594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BF1D0E20B4F9DC00351594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A911E8D7385E724FCDA58F8 /* Pods-iLike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iLike/iLike.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38RJC3VVMN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlacePicker/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"$(PROJECT_DIR)/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks",
+				);
+				INFOPLIST_FILE = iLike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.iLike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iLike/Bridging_Header.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B0BF1D0F20B4F9DC00351594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB669D1AC6BBB6895CE80492 /* Pods-iLike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iLike/iLike.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38RJC3VVMN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlacePicker/Frameworks\"",
+					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
+					"$(PROJECT_DIR)/Pods/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks",
+				);
+				INFOPLIST_FILE = iLike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.iLike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iLike/Bridging_Header.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B0BF1D1120B4F9DC00351594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iLikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.iLikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLike.app/iLike";
+			};
+			name = Debug;
+		};
+		B0BF1D1220B4F9DC00351594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iLikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.iLikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLike.app/iLike";
+			};
+			name = Release;
+		};
+		B0BF1D1420B4F9DC00351594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iLikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.iLikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLike;
+			};
+			name = Debug;
+		};
+		B0BF1D1520B4F9DC00351594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iLikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enixsoft.iLikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0BF1CDE20B4F9DA00351594 /* Build configuration list for PBXProject "iLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BF1D0B20B4F9DC00351594 /* Debug */,
+				B0BF1D0C20B4F9DC00351594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BF1D0D20B4F9DC00351594 /* Build configuration list for PBXNativeTarget "iLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BF1D0E20B4F9DC00351594 /* Debug */,
+				B0BF1D0F20B4F9DC00351594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BF1D1020B4F9DC00351594 /* Build configuration list for PBXNativeTarget "iLikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BF1D1120B4F9DC00351594 /* Debug */,
+				B0BF1D1220B4F9DC00351594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BF1D1320B4F9DC00351594 /* Build configuration list for PBXNativeTarget "iLikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BF1D1420B4F9DC00351594 /* Debug */,
+				B0BF1D1520B4F9DC00351594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BF1CDB20B4F9DA00351594 /* Project object */;
+}

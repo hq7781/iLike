@@ -1,0 +1,23 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+target 'iLike' do
+  ## GooGle API SDK
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'GoogleMaps'
+  #pod 'Firebase/Core'
+  #pod 'Firebase/Auth'
+  #pod 'FirebaseUI', '~> 4.0'
+  #pod 'FirebaseUI/Auth'
+  #pod 'FirebaseUI/Google'
+  #pod 'FirebaseUI/Facebook'
+  #pod 'FirebaseUI/Twitter'
+  #pod 'FirebaseUI/Phone'
+
+  ## Facebook SDK
+  pod 'FBSDKCoreKit', '~> 4.10.0'
+  pod 'FBSDKLoginKit', '~> 4.10.0'
+  pod 'FBSDKShareKit', '~> 4.10.0'
+  ## Twitter SDK
+  pod 'TwitterKit'
+end
